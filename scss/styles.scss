@@ -62,7 +62,7 @@
     flex-wrap: wrap;
     align-items: center;
     background-color: #2C4770;
-    
+    bottom: 0;
 
 }
 
@@ -115,7 +115,31 @@ $form-feedback-font-style: 'Outfit';
     .font_contacto2Linea{
         @include font_CONTACTO;
     }
-    
+    .promociones{
+        h1{
+            font-size: 2rem;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+            color: #FFD300;
+        }
+        img{
+            width: 20%;
+            height: 20%;
+            margin-left: 40%;
+        }
+        p{
+            font-size: 1rem;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+            color: #FFD300;
+        }
+        h3{
+            font-size: 1.3rem;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+            color:#2C4770;
+        }
+    }
 }
 
 .sinMargen{
