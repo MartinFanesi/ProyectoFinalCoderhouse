@@ -59,3 +59,18 @@ ul {
     }
 }
 }
+
+@media (max-width: 450px) {
+  .header-content {
+      .h1_delvideo {
+      font-size: 1rem;
+      }
+      p {
+      font-size: 0.5rem;
+      }
+  
+      ul {
+      font-size: 0.5rem;
+      }
+  }
+  }
