@@ -73,3 +73,20 @@
             }
 
                 }
+
+                @media (max-height: 582.00px){ 
+
+                @mixin font_CONTACTO{
+                    font-family: 'Outfit';
+                    font-size: 1.2rem;
+                    text-align: center;
+                    text-shadow: 1px 1px 2px black;
+                }
+                .font_contacto1Linea{
+                    @include font_CONTACTO;
+                    margin-top: 1rem;
+                }
+                .font_contacto2Linea{
+                    @include font_CONTACTO;
+                }
+                }
