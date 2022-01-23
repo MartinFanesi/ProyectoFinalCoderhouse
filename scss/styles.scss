@@ -136,7 +136,7 @@ $navbar-light-hover-color:  #FFD300;
 $form-feedback-font-style: 'Outfit';
 
 /*media queries*/
-@media (max-width: 767.98px){ 
+@media (max-width: 810.98px){ 
     .font_navbar{
         font-size: 1.3rem;
     }
@@ -208,17 +208,25 @@ $form-feedback-font-style: 'Outfit';
     .card-img{
         height: 25vh;
             }
-    
 
-}
+                }
+
+
 @media (min-height: 910px){
 .header_extender{
-    margin-top: 10rem;
+    margin-top: 7rem;
 }
 .footer_extender{
-    margin-bottom: 10rem;
+    margin-bottom: 11rem;
 }
 }
+
+@media (min-height: 1060px){
+    .header_extender{
+        margin-bottom: 18rem;
+    }
+}
+
 
 /*IMPORTACION DE BOOTSTRAP*/
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
