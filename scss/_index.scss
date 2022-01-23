@@ -1,0 +1,43 @@
+/*MIXING*/
+@mixin font_CONTACTO{
+    font-family: 'Outfit';
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+}
+.font_contacto1Linea{
+    @include font_CONTACTO;
+    margin-top:10%;
+}
+.font_contacto2Linea{
+    @include font_CONTACTO;
+}
+/*css*/
+
+.font_carousel{
+    font-family: 'Outfit';
+    font-size: 1.9rem;
+    text-align: left;
+    color: #FFD300;
+    text-shadow: 1px 1px 2px black;
+}
+
+
+
+
+div{
+    label{
+        font-family: 'Outfit';
+    }
+}
+/*contacto.html*/
+.marginContactForm{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+

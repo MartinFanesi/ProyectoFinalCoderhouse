@@ -1,0 +1,23 @@
+@media (min-height: 1060px) {
+  .header_extender {
+    margin-bottom: 18rem;
+  }
+}
+
+@media (min-height: 910px) {
+  .header_extender {
+    margin-top: 7rem;
+  }
+  .footer_extender {
+    margin-bottom: 11rem;
+  }
+}
+
+.estilo_footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #2c4770;
+}

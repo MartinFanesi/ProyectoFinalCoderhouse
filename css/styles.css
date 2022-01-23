@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*Reset de SCSS*/
 /*RESET DE ESTILOS*/
 * {
   padding: 0;
@@ -6,6 +7,42 @@
   box-sizing: border-box;
 }
 
+/*index.html*/
+/*MIXING*/
+.font_contacto1Linea {
+  font-family: "Outfit";
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+  margin-top: 10%;
+}
+
+.font_contacto2Linea {
+  font-family: "Outfit";
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+/*css*/
+.font_carousel {
+  font-family: "Outfit";
+  font-size: 1.9rem;
+  text-align: left;
+  color: #FFD300;
+  text-shadow: 1px 1px 2px black;
+}
+
+div label {
+  font-family: "Outfit";
+}
+
+/*contacto.html*/
+.marginContactForm {
+  margin-bottom: 1rem;
+}
+
+/*about.html*/
 .header-video {
   position: relative;
   width: 100%;
@@ -65,6 +102,7 @@
     font-size: 1rem;
   }
 }
+/*barra de navegación*/
 .font_navbar {
   font-size: 2.2rem;
   font-family: "Architects Daughter";
@@ -79,6 +117,8 @@
   text-shadow: 1px 1px 2px black;
 }
 
+/*promociones.html*/
+/* Estilos de la pagina promociones.html*/
 .promociones h1, .promociones .h1 {
   font-size: 4rem;
   text-align: center;
@@ -103,56 +143,39 @@
   color: #2C4770;
 }
 
-/*MIXING*/
-/*css*/
 .promociones_fondo {
   background: repeating-radial-gradient(circle at bottom left, #fedc00 0, #fedc00 5.5555555556%, #fcb712 0, #fcb712 11.1111111111%, #f7921e 0, #f7921e 16.6666666667%, #e87f24 0, #e87f24 22.2222222222%, #dd6227 0, #dd6227 27.7777777778%, #dc4c27 0, #dc4c27 33.3333333333%, #ca3435 0, #ca3435 38.8888888889%, #b82841 0, #b82841 44.4444444444%, #953751 0, #953751 50%, #364c88 0, #364c88 55.5555555556%, #16599d 0, #16599d 61.1111111111%, #02609e 0, #02609e 66.6666666667%, #0073a9 0, #0073a9 72.2222222222%, #008aa4 0, #008aa4 77.7777777778%, #239a87 0, #239a87 83.3333333333%, #7cba6d 0, #7cba6d 88.8888888889%, #becc2f 0, #becc2f 94.4444444444%, #e0d81d 0, #e0d81d 100%), repeating-radial-gradient(circle at bottom right, #fedc00 0, #fedc00 5.5555555556%, #fcb712 0, #fcb712 11.1111111111%, #f7921e 0, #f7921e 16.6666666667%, #e87f24 0, #e87f24 22.2222222222%, #dd6227 0, #dd6227 27.7777777778%, #dc4c27 0, #dc4c27 33.3333333333%, #ca3435 0, #ca3435 38.8888888889%, #b82841 0, #b82841 44.4444444444%, #953751 0, #953751 50%, #364c88 0, #364c88 55.5555555556%, #16599d 0, #16599d 61.1111111111%, #02609e 0, #02609e 66.6666666667%, #0073a9 0, #0073a9 72.2222222222%, #008aa4 0, #008aa4 77.7777777778%, #239a87 0, #239a87 83.3333333333%, #7cba6d 0, #7cba6d 88.8888888889%, #becc2f 0, #becc2f 94.4444444444%, #e0d81d 0, #e0d81d 100%);
   background-blend-mode: overlay;
   height: 100%;
 }
 
-.font_carousel {
-  font-family: "Outfit";
-  font-size: 1.9rem;
-  text-align: left;
-  color: #FFD300;
-  text-shadow: 1px 1px 2px black;
+/*footer*/
+@media (min-height: 1060px) {
+  .header_extender {
+    margin-bottom: 18rem;
+  }
 }
+@media (min-height: 910px) {
+  .header_extender {
+    margin-top: 7rem;
+  }
 
-.font_contacto1Linea {
-  font-family: "Outfit";
-  font-size: 4rem;
-  text-align: center;
-  text-shadow: 1px 1px 2px black;
-  margin-top: 10%;
+  .footer_extender {
+    margin-bottom: 11rem;
+  }
 }
-
-.font_contacto2Linea {
-  font-family: "Outfit";
-  font-size: 4rem;
-  text-align: center;
-  text-shadow: 1px 1px 2px black;
-}
-
 .estilo_footer {
   display: flex;
   flex-direction: column;
   align-content: center;
   flex-wrap: wrap;
   align-items: center;
-  background-color: #2C4770;
+  background-color: #2c4770;
 }
 
-div label {
-  font-family: "Outfit";
-}
-
-/*contacto.html*/
-.marginContactForm {
-  margin-bottom: 1rem;
-}
-
-/*ASIGNACION DE VARIABLES*/
+/*modificación de colores en bootstrap*/
+/*ASIGNACION DE COLORES EN VARIABLES SASS*/
+/*media query*/
 /*media queries*/
 @media (max-width: 810.98px) {
   .font_navbar {
@@ -229,21 +252,7 @@ div label {
     height: 25vh;
   }
 }
-@media (min-height: 910px) {
-  .header_extender {
-    margin-top: 7rem;
-  }
-
-  .footer_extender {
-    margin-bottom: 11rem;
-  }
-}
-@media (min-height: 1060px) {
-  .header_extender {
-    margin-bottom: 18rem;
-  }
-}
-/*IMPORTACION DE BOOTSTRAP*/
+/*IMPORTACIÓN DE BOOTSTRAP*/
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
